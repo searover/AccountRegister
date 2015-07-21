@@ -6,6 +6,7 @@ import javax.mail.Message;
 
 import com.icegreen.greenmail.util.GreenMailUtil;
 import com.icegreen.greenmail.util.ServerSetup;
+import com.icegreen.greenmail.util.ServerSetupTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,8 +22,9 @@ public class AccountEmailServiceTest {
 
     @Before
     public void startMailServer() throws Exception{
-        greenMail = new GreenMail(ServerSetup.SMTP);
+        greenMail = new GreenMail(ServerSetupTest.SMTP);
         greenMail.setUser("bai1guang@sina.com","123456");
+
         greenMail.start();
     }
 
@@ -34,7 +36,7 @@ public class AccountEmailServiceTest {
 
         String subject = "Test Subject";
         String htmlText = "<h3>Test</h3>";
-        accountEmailService.sendMail("bai2guang@sina.com", subject, htmlText);
+        accountEmailService.sendMail("bai2guang@test.com", subject, htmlText);
 
         greenMail.waitForIncomingEmail(2000, 1);
 

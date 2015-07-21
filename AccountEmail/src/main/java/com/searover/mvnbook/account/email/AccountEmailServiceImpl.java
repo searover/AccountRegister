@@ -2,6 +2,7 @@ package com.searover.mvnbook.account.email;
 
 import com.searover.mvnbook.account.email.exception.AccountEmailException;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 
 import javax.mail.MessagingException;
@@ -25,6 +26,8 @@ public class AccountEmailServiceImpl implements AccountEmailService {
             msgHelper.setTo(to);
             msgHelper.setSubject(subject);
             msgHelper.setText(htmlText, true);
+            System.out.println("========================");
+            System.out.println(((JavaMailSenderImpl)javaMailSender).getPort());
 
             javaMailSender.send(msg);
         } catch (MessagingException e) {

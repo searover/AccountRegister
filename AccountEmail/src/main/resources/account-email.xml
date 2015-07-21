@@ -26,7 +26,7 @@
     <bean id="accountEmailService"
           class="com.searover.mvnbook.account.email.AccountEmailServiceImpl">
         <property name="javaMailSender" ref="javaMailSender"/>
-        <property name="systemEmail" ref="${email.systemEmail}"/>
+        <property name="systemEmail" value="${email.systemEmail}"/>
     </bean>
 
 </beans>
