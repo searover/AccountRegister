@@ -25,6 +25,14 @@ public class AccountPersistServiceImpl implements AccountPersistService {
     private static final String ELEMENT_ACCOUNT_PASSWORD = "password";
     private static final String ELEMENT_ACCOUNT_ACTIVATED = "activated";
 
+    public String getFile() {
+        return file;
+    }
+
+    public void setFile(String file) {
+        this.file = file;
+    }
+
     private String file;
 
     private SAXReader reader = new SAXReader();
