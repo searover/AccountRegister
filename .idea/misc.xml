@@ -7,6 +7,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/AccountEmail/pom.xml" />
+        <option value="$PROJECT_DIR$/AccountPersist/pom.xml" />
       </list>
     </option>
   </component>
