@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountCaptcha/AccountAggregator/AccountCaptcha.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountCaptcha/AccountAggregator/AccountCaptcha.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountEmail/AccountEmail.iml" filepath="$PROJECT_DIR$/AccountEmail/AccountEmail.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountParent/AccountParent.iml" filepath="$PROJECT_DIR$/AccountParent/AccountParent.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountPersist/AccountPersist.iml" filepath="$PROJECT_DIR$/AccountPersist/AccountPersist.iml" />

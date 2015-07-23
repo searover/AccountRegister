@@ -14,6 +14,7 @@
         <module>../AccountWeb</module>
         <module>../AccountPersist</module>
         <module>../AccountParent</module>
+        <module>AccountCaptcha</module>
     </modules>
 
    <distributionManagement>

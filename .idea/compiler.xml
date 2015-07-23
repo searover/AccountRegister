@@ -38,9 +38,17 @@
         <processorPath useClasspath="true" />
         <module name="AccountWeb" />
       </profile>
+      <profile default="false" name="Annotation profile for AccountCaptcha" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="AccountCaptcha" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AccountAggregator" target="1.5" />
+      <module name="AccountCaptcha" target="1.5" />
       <module name="AccountEmail" target="1.5" />
       <module name="AccountParent" target="1.5" />
       <module name="AccountPersist" target="1.5" />
