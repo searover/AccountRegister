@@ -31,10 +31,18 @@
         <processorPath useClasspath="true" />
         <module name="AccountPersist" />
       </profile>
+      <profile default="false" name="Annotation profile for AccountWeb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="AccountWeb" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AccountAggregator" target="1.5" />
       <module name="AccountEmail" target="1.5" />
+      <module name="AccountParent" target="1.5" />
       <module name="AccountPersist" target="1.5" />
       <module name="AccountWeb" target="1.5" />
     </bytecodeTargetLevel>

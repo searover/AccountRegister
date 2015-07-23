@@ -11,9 +11,21 @@
     <name>Account Aggregator</name>
     <modules>
         <module>../AccountEmail</module>
-        <module>../AccountPersist</module>
         <module>../AccountWeb</module>
+        <module>../AccountPersist</module>
+        <module>../AccountParent</module>
     </modules>
 
-    
+   <distributionManagement>
+        <repository>
+            <id>linode-nexus-releases</id>
+            <name>Linode Nexus Releases Repository</name>
+            <url>http://ibaiguang.com:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>linode-nexus-snapshots</id>
+            <name>Linode Nexus Snapshots Repository</name>
+            <url>http://ibaiguang.com:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

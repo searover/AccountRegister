@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountEmail/AccountEmail.iml" filepath="$PROJECT_DIR$/AccountEmail/AccountEmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccountParent/AccountParent.iml" filepath="$PROJECT_DIR$/AccountParent/AccountParent.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountPersist/AccountPersist.iml" filepath="$PROJECT_DIR$/AccountPersist/AccountPersist.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountWeb/AccountWeb.iml" filepath="$PROJECT_DIR$/AccountWeb/AccountWeb.iml" />
     </modules>
