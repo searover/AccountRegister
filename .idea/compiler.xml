@@ -33,8 +33,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AccountAggregator" target="1.5" />
       <module name="AccountEmail" target="1.5" />
       <module name="AccountPersist" target="1.5" />
+      <module name="AccountWeb" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

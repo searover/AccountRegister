@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountEmail/AccountEmail.iml" filepath="$PROJECT_DIR$/AccountEmail/AccountEmail.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountPersist/AccountPersist.iml" filepath="$PROJECT_DIR$/AccountPersist/AccountPersist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccountWeb/AccountWeb.iml" filepath="$PROJECT_DIR$/AccountWeb/AccountWeb.iml" />
     </modules>
   </component>
 </project>

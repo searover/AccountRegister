@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/AccountEmail/pom.xml" />
         <option value="$PROJECT_DIR$/AccountPersist/pom.xml" />
+        <option value="$PROJECT_DIR$/AccountAggregator/pom.xml" />
       </list>
     </option>
   </component>

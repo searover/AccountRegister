@@ -6,6 +6,7 @@
 
     <groupId>com.searover.mvnbook.account</groupId>
     <artifactId>account-persist</artifactId>
+    <name>Account Persist</name>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
