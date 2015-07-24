@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<account-persist> 
+  <accounts>
+    <account>
+      <id>searover</id>
+      <name>Searover Lu</name>
+      <email>searover@gmail.com</email>
+      <password>this_should_be_encrypted</password>
+      <activated>true</activated>
+    </account>
+  </accounts> 
+</account-persist>

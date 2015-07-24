@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+        <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+                <!--从classpath载入名为account-service.properties的配置文件-->
+                <property name="location" value="classpath:account-service.properties"/>
+        </bean>
+
+        <bean id="accountPersistService" class="com.searover.mvnbook.account.persist.AccountPersistServiceImpl">
+                <!--XML数据文档的位置是由项目classpath下account-service.properties文件中persist.file属性的值配置的-->
+                <property name="file" value="${persist.file}"/>
+        </bean>
+
+</beans>
