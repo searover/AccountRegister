@@ -43,7 +43,7 @@ public class AccountCaptchaServiceImpl implements AccountCaptchaService, Initial
         }
     }
 
-    public byte[] generateCaptchaImage(String captchaKey) throws AccountCaptchaException, IOException {
+    public byte[] generateCaptchaImage(String captchaKey) throws AccountCaptchaException {
        String text = captchaMap.get(captchaKey);
         if(text == null){
             throw new AccountCaptchaException();
