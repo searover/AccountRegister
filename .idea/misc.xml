@@ -9,12 +9,8 @@
         <option value="$PROJECT_DIR$/AccountEmail/pom.xml" />
         <option value="$PROJECT_DIR$/AccountPersist/pom.xml" />
         <option value="$PROJECT_DIR$/AccountAggregator/pom.xml" />
+        <option value="$PROJECT_DIR$/AccountAggregator/AccountCaptcha/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/AccountAggregator/AccountParent/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">

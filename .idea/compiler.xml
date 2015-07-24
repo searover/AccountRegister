@@ -43,15 +43,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="AccountCaptcha" />
+      </profile>
+      <profile default="false" name="Annotation profile for account-captcha" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="account-captcha" />
+      </profile>
+      <profile default="false" name="Annotation profile for AccountService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="AccountService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="account-captcha" target="1.5" />
       <module name="AccountAggregator" target="1.5" />
       <module name="AccountCaptcha" target="1.5" />
       <module name="AccountEmail" target="1.5" />
       <module name="AccountParent" target="1.5" />
       <module name="AccountPersist" target="1.5" />
+      <module name="AccountService" target="1.5" />
       <module name="AccountWeb" target="1.5" />
     </bytecodeTargetLevel>
   </component>

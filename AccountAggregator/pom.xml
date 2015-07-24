@@ -15,6 +15,7 @@
         <module>AccountPersist</module>
         <module>AccountParent</module>
         <module>AccountCaptcha</module>
+        <module>AccountService</module>
     </modules>
 
    <distributionManagement>
