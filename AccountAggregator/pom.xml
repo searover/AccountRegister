@@ -6,16 +6,16 @@
 
     <groupId>com.searover.mvnbook.account</groupId>
     <artifactId>account-aggregator</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Account Aggregator</name>
     <modules>
         <module>AccountEmail</module>
-        <module>AccountWeb</module>
         <module>AccountPersist</module>
         <module>AccountParent</module>
         <module>AccountCaptcha</module>
         <module>AccountService</module>
+        <module>AccountWeb</module>
     </modules>
 
    <distributionManagement>

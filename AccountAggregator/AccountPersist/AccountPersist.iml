@@ -4,7 +4,7 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/../../AccountPersist/src/main/resources/account-persist.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/account-persist.xml</file>
         </fileset>
       </configuration>
     </facet>

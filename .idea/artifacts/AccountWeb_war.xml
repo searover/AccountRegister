@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AccountWeb:war">
+    <output-path>$PROJECT_DIR$/AccountAggregator/AccountWeb/target</output-path>
+    <root id="archive" name="account-web-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="AccountWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

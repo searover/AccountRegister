@@ -122,6 +122,5 @@ public class AccountPersistServiceImpl implements AccountPersistService {
     }
 
     public void delete(String id) throws AccountPersistException {
-
     }
 }
