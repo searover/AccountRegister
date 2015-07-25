@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountAggregator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountCaptcha/account-captcha.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountCaptcha/account-captcha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountCaptcha/AccountCaptcha.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountCaptcha/AccountCaptcha.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountEmail/AccountEmail.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountEmail/AccountEmail.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountParent/AccountParent.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountParent/AccountParent.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountPersist/AccountPersist.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountPersist/AccountPersist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountService/AccountAggregator/AccountService.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountService/AccountAggregator/AccountService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountService/AccountService.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountService/AccountService.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccountAggregator/AccountWeb/AccountWeb.iml" filepath="$PROJECT_DIR$/AccountAggregator/AccountWeb/AccountWeb.iml" />
     </modules>
   </component>
