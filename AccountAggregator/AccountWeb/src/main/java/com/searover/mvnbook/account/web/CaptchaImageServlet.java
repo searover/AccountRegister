@@ -1,5 +1,6 @@
 package com.searover.mvnbook.account.web;
 
+import com.searover.mvnbook.account.email.AccountEmailService;
 import com.searover.mvnbook.account.service.AccountService;
 import com.searover.mvnbook.account.service.AccountServiceException;
 import org.springframework.context.ApplicationContext;
@@ -29,6 +30,7 @@ public class CaptchaImageServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        AccountEmailService emailService = (AccountEmailService) context.getBean("accountEmailService");
         String key = req.getParameter("key");
         if(key == null || key.length() == 0){
             resp.sendError(400, "No Captcha Key Found");
